@@ -7,6 +7,6 @@ end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
 require("lazy").setup({
-  spec = "plugins",
-  change_detection = { notify = false },
+    spec = "plugins",
+    change_detection = { notify = false },
 })

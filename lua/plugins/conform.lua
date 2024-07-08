@@ -13,6 +13,10 @@ return {
         javascript = { { "prettierd", "prettier" } },
         javascriptreact = { { "prettierd", "prettier" } },
         go = { "goimports", "gofmt" },
+        c = { "clang-format" },
+        cpp = { "clang-format" },
+        objc = { "clang-format" },
+        objcpp = { "clang-format" },
 
         ["*"] = { "codespell" },
         -- Use the "_" filetype to run formatters on filetypes that don't

@@ -1,8 +1,7 @@
 return {
-
     {
         "nvim-lua/plenary.nvim",
-        name = "plenary"
+        name = "plenary",
     },
 
     "github/copilot.vim",
